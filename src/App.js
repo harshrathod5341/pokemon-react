@@ -4,7 +4,7 @@ import Card from './Card';
 import Database from './Database';
 
 
-function App() {
+export default function App() {
   return (
     <div>
       <Heading pageTitle="Pokemon" />
@@ -12,4 +12,3 @@ function App() {
     </div>
   );
 }
-export default App;
